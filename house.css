@@ -1,0 +1,65 @@
+.div-3{
+    font-size: 30px;
+    color:white
+}
+
+
+.navbar{
+    width:170px;
+    height:100px;
+    display:inline-block;
+    font-size:25px;
+    color:white;
+}
+.div-1{
+   
+    position:relative;
+    left:600px;
+    
+}
+.navbar:hover{
+    text-decoration:underline;
+    text-decoration-color:green;
+   
+}
+
+    
+    
+    
+ h1{
+         color:white;
+         font-size: 80px;
+     }
+
+     p{
+        color:white;
+        font-size: 25px;
+     }
+     h1::selection{
+         background-color:blue;
+     }
+     p::selection{
+        background-color:blue;
+    }
+    
+   .container{
+        width:270px;
+        height:50px;
+        transition:width 10s;
+        border-radius: 50px;
+        font-size: 30px;
+        border:2px solid green;
+        display:inline-block;
+        color: white;
+        padding:2px 2px 0px 10px;
+        
+       }
+    .container:hover{
+      width:400px;
+      background-color: green;
+    }
+    .div-2{
+       width:100%;
+       height:100%;
+       text-align: center;
+    }
